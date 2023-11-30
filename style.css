@@ -12,6 +12,7 @@ body{
 .main{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .scoreboard{
@@ -139,7 +140,7 @@ body{
     display: flex;
     justify-content: center;
     /* justify-content: space-around; */
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: -200px;
 }
 
