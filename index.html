@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title>Game</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="scoreboard">
+        <div class="text">
+          <h1>ROCK</h1>
+          <h1>PAPER</h1>
+          <h1>SCISSORS</h1>
+        </div>
+
+        <div class="score">
+          <div class="computerscore">
+            <h4>COMPUTER SCORE</h4>
+            <p id="com">0</p>
+          </div>
+          <div class="yourscore">
+            <h4>YOUR <br>  SCORE</h4>
+            <p id="user">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <button onclick="game(user)">paly game</button> -->
+    
+    <!-- play section -->
+    <div class="content">
+    <div class="play">
+
+      <div id="rock" onclick="game('stone')">
+        <img  class="white-bg-rock" src="icons/white-bg.png" alt="" width="100px">
+        <img  class="rock-sign" src="icons/stone.png" alt="" width="75px">
+
+        <img class="rock-bg" src="icons/stone-bg.png"  alt="" width="120px">
+
+      </div>
+      <img  class="line3" src="icons/line.png" alt="">
+        <!-- <img src="icons/line.png" class="line2" alt=""> -->
+        <br>
+       <div class="l1">
+        <img src="icons/line.png" class="line2" alt="">
+       </div>
+       
+          
+        
+   
+    <div id="scissor" onclick="game('scissor')">
+      <img  class="white-bg-scissor" src="icons/white-bg.png" alt="" width="100px">
+      <img  class="scissor-sign" src="icons/scissor.png" alt="" width="45px">
+
+      <img class="scissor-bg" src="icons/scissor-bg.png"  alt="" width="120px">
+
+    </div>
+
+    <img class="line1" src="icons/line.png" alt="">
+  
+    <div id="paper" onclick="game('paper')">
+      <img  class="white-bg-paper" src="icons/white-bg.png" alt="" width="100px">
+      <img  class="paper-sign" src="icons/paper.png" alt="" width="65px">
+
+      <img class="paper-bg" src="icons/paper-bg.png"  alt="" width="120px">
+
+    </div>
+
+    
+
+</div >
+
+
+
+
+    <!-- pop-up -->
+
+    <div class="outer-popup">
+      
+    <div id="popup">
+        
+        <div>
+          <h2>Game's Rules</h2>
+        <ul>
+          <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+          <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+          <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+          <li>If both players lay down the same hand, each player lays down another hand</li>
+        </ul>
+      </div>
+
+
+      <div class="cross-wrapper">
+      <div class="cross" onclick="closepopup()">
+        <img class="red-bg" src="icons/red-bg.png" alt="">
+        <img class="x" src="icons/x.png" alt="">
+  
+      </div>
+    </div>
+
+
+    </div>
+   
+
+
+    </div>
+
+    <footer class="footer">
+      <button class="rules" onclick="popupFunction()">RULES</button>
+    </footer>
+
+
+    <Script src="script.js"></Script>
+  </body>
+</html>

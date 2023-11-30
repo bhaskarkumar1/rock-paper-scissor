@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #8CC461;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard{
+    border: #fff solid 3px;
+    border-radius: 15px;
+    height: 20%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.score{
+    display: flex;
+    justify-content: end;
+}
+
+.scoreboard h1{
+    color:#fff;
+}
+
+.yourscore{
+    height: 120px;
+    width:120px;
+    border:#fff solid 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 7% 7% 7% 3% ;
+}
+
+.computerscore{
+    height: 120px;
+    width:120px;
+    border: #fff solid 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 7% 3% 7% -15% ;
+
+
+}
+
+.score h4{
+ text-align: center;
+}
+
+.score p{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.text{
+    margin: 2%;
+}
+
+/* play section */
+
+
+#rock{
+    position: relative;
+    /* margin-left: 12px; */
+}
+.rock-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.white-bg-rock{
+    position: absolute;
+    top: 8;
+    left: 11;
+}
+.rock-sign{
+    position: absolute;
+    top: 25;
+    left: 22;
+}
+
+/* scissor button design */
+
+#scissor{
+    position: relative;
+    /* left: 100; */
+    /* margin-left: 100px; */
+}
+.scissor-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.white-bg-scissor{
+    position: absolute;
+    top: 8;
+    left: 11;
+}
+.scissor-sign{
+    position: absolute;
+    top: 25;
+    left:40;
+}
+
+/* paper design */
+
+#paper{
+    position: relative;
+    margin-top: 150px;
+    margin-left: -165px;
+}
+.paper-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.white-bg-paper{
+    position: absolute;
+    top: 8;
+    left: 11;
+}
+.paper-sign{
+    position: absolute;
+    top: 25;
+    left:27;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    margin-left: -200px;
+}
+
+
+.line2{
+    transform: rotate(60deg);
+    margin-left: -7px;
+    
+}
+.line3{
+    transform: rotate(-60deg);
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.line1{
+    margin-top: 100px;
+}
+
+
+/* footer  */
+.footer{
+    display: flex;
+    justify-content: end;
+}
+
+/* Rules button  */
+
+.rules{
+    margin-right: 2%;
+    margin-top: 10%;
+    padding: 7px 25px;
+    background-color: #8CC461;
+    color: #fff;
+    font-size: 20px;
+    border: #fff solid 3px;
+    border-radius: 10px;
+}
+
+
+
+
+/*  popup- rules section */
+.outer-popup{
+    position: relative;
+
+}
+#popup{
+    position: absolute;
+
+    top: 0;
+    left:0;
+
+    display: none;
+    border: #fff solid 5px;
+    width: 21%;
+    margin-left: 75%;
+    margin-top: -15%;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #004429;
+    
+
+}
+#popup h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#popup li{
+    list-style-type:square;
+    margin: 25px 20px;
+}
+
+.cross{
+    position: relative;
+    
+    /* margin-left:30%; */
+
+}
+.red-bg{
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.x{
+    position: absolute;
+    top: 12;
+    left:17;
+}
+
+.cross-wrapper{
+    position: absolute;
+    top: -40;
+    left:290;
+
+}
